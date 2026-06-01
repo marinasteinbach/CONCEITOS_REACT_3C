@@ -33,7 +33,7 @@ export default function Login({navegar}){
             value = {senha}
             onChange = {(e) => setSenha(e.target.value) }
             />
-            <button onClick={entrar()}>Entrar</button>
+            <button onClick={entrar}>Entrar</button>
         </div>
     )
 }
